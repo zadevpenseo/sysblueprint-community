@@ -1,0 +1,21 @@
+User-agent: *
+Allow: /
+
+# Cloudflare Agent Readiness & AI Content Signals
+Content-Signal: ai-train=no, search=yes, ai-input=yes
+
+# Agent Readiness Discovery (ARD) Agentmap
+Agentmap: https://raw.githubusercontent.com/zadevpenseo/sysblueprint-community/main/.well-known/ai-catalog.json
+
+# AI Agent Crawlers Directives
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /

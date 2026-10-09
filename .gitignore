@@ -1,0 +1,20 @@
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# OS / IDE
+.DS_Store
+.vscode/
+.idea/
+
+# Environment and secrets (Strictly ignored)
+.env
+.env.*
+*.secret
+
+# Node
+node_modules/
+dist/
+build/

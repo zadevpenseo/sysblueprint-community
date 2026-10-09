@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "name": "SysBlueprint AI Catalog",
+  "version": "1.0.0",
+  "endpoints": [
+    {
+      "name": "LLM Summary Documentation",
+      "path": "/llms.txt",
+      "format": "text/markdown",
+      "description": "High-density conceptual and tooling summary for AI agents."
+    },
+    {
+      "name": "LLM Full Specifications",
+      "path": "/llms-full.txt",
+      "format": "text/markdown",
+      "description": "Exhaustive architectural rules, schemas, and scoring criteria."
+    },
+    {
+      "name": "A2A Agent Card",
+      "path": "/.well-known/agent-card.json",
+      "format": "application/json",
+      "description": "Agent-to-Agent discovery manifest."
+    },
+    {
+      "name": "MCP Server Card",
+      "path": "/.well-known/mcp/server-card.json",
+      "format": "application/json",
+      "description": "Model Context Protocol server description."
+    }
+  ]
+}

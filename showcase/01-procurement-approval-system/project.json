@@ -1,0 +1,68 @@
+{
+  "author": "Muhammad Khoiruzzadittaqwa",
+  "project_name": "Enterprise Multi-Tier Procurement Approval System",
+  "description": "Rancangan skema data relasional 3NF dan state machine SCXML untuk tata kelola pengadaan barang multi-level approval.",
+  "database": {
+    "tables": [
+      {
+        "name": "departments",
+        "columns": [
+          {"name": "id", "type": "UUID", "is_pk": true},
+          {"name": "code", "type": "VARCHAR(32)", "is_pk": false},
+          {"name": "name", "type": "VARCHAR(128)", "is_pk": false}
+        ]
+      },
+      {
+        "name": "procurement_requests",
+        "columns": [
+          {"name": "id", "type": "UUID", "is_pk": true},
+          {"name": "dept_id", "type": "UUID", "is_fk": true, "references": "departments.id"},
+          {"name": "title", "type": "VARCHAR(255)", "is_pk": false},
+          {"name": "total_amount", "type": "NUMERIC(14,2)", "is_pk": false},
+          {"name": "current_status", "type": "VARCHAR(32)", "is_pk": false}
+        ]
+      },
+      {
+        "name": "approval_audits",
+        "columns": [
+          {"name": "id", "type": "BIGINT", "is_pk": true},
+          {"name": "request_id", "type": "UUID", "is_fk": true, "references": "procurement_requests.id"},
+          {"name": "approver_role", "type": "VARCHAR(64)", "is_pk": false},
+          {"name": "decision", "type": "VARCHAR(32)", "is_pk": false},
+          {"name": "created_at", "type": "TIMESTAMPTZ", "is_pk": false}
+        ]
+      }
+    ]
+  },
+  "workflow": {
+    "initial": "draft",
+    "states": [
+      {
+        "name": "draft",
+        "transitions": [{"event": "SUBMIT", "target": "manager_review"}]
+      },
+      {
+        "name": "manager_review",
+        "transitions": [
+          {"event": "APPROVE_MANAGER", "target": "finance_review"},
+          {"event": "REJECT", "target": "rejected"}
+        ]
+      },
+      {
+        "name": "finance_review",
+        "transitions": [
+          {"event": "APPROVE_FINANCE", "target": "po_issued"},
+          {"event": "REJECT", "target": "rejected"}
+        ]
+      },
+      {
+        "name": "po_issued",
+        "transitions": []
+      },
+      {
+        "name": "rejected",
+        "transitions": []
+      }
+    ]
+  }
+}

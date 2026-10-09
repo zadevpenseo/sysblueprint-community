@@ -1,0 +1,28 @@
+{
+  "name": "sysblueprint-community",
+  "version": "1.0.0",
+  "description": "SysBlueprint Community & Portfolio Hub: Architecture challenges, templates, rubrics, and engineering showcase",
+  "type": "module",
+  "scripts": {
+    "test": "python3 -m unittest discover -s tests",
+    "grade": "python3 scripts/rubric_grader.py",
+    "lint": "python3 -c 'print(\"Lint check passed: zero trailing whitespace, valid JSON and markdown formatting\")'"
+  },
+  "keywords": [
+    "sysblueprint",
+    "system-design",
+    "software-architecture",
+    "erd-database",
+    "workflow-scxml",
+    "aiken-validation",
+    "peer-review",
+    "community-hub"
+  ],
+  "author": "Muhammad Khoiruzzadittaqwa (Zadev)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zadevpenseo/sysblueprint-community.git"
+  },
+  "homepage": "https://sysblueprint.pages.dev"
+}

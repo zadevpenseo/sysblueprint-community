@@ -1,0 +1,33 @@
+name: Laporan Masalah (Bug Report)
+description: Laporkan kendala, kelemahan kalkulator, atau anomali pada template
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: Terima kasih telah meluangkan waktu untuk melaporkan masalah.
+  - type: input
+    id: summary
+    attributes:
+      label: Ringkasan Masalah
+      description: Jelaskan kendala dalam 1 kalimat lugas.
+      placeholder: Contoh: Validasi foreign key gagal mendeteksi tabel referensi komposit
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Langkah Mereproduksi Masalah
+      description: Urutan tindakan yang memicu masalah tersebut.
+      placeholder: |
+        1. Buka kalkulator atau jalankan rubric_grader.py
+        2. Masukkan skema JSON terlampir
+        3. Perhatikan skor yang tidak sesuai
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Perilaku yang Diharapkan
+      description: Apa yang seharusnya terjadi?
+    validations:
+      required: true

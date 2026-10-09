@@ -1,0 +1,39 @@
+{
+  "name": "SysBlueprint WebMCP Server",
+  "version": "1.0.0",
+  "description": "Model Context Protocol server exposing architecture evaluation tools, SQL generators, and psychometric calculators.",
+  "transport": "stdio/http",
+  "tools": [
+    {
+      "name": "grade_blueprint",
+      "description": "Evaluate a database schema or SCXML workflow against the 4-dimension SysBlueprint rubric.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "schema_payload": {
+            "type": "object",
+            "description": "The JSON object containing database tables or workflow states."
+          }
+        },
+        "required": ["schema_payload"]
+      }
+    },
+    {
+      "name": "calculate_aiken_v",
+      "description": "Calculate Aiken's V content validity coefficient for survey instruments.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "ratings": {
+            "type": "array",
+            "items": {"type": "integer"},
+            "description": "List of integer ratings given by expert judges."
+          },
+          "lowest_scale": {"type": "integer", "default": 1},
+          "highest_scale": {"type": "integer", "default": 5}
+        },
+        "required": ["ratings"]
+      }
+    }
+  ]
+}

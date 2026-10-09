@@ -1,0 +1,17 @@
+name: Umpan Balik Tantangan (Challenge Feedback)
+description: Sampaikan masukan atau saran perbaikan terkait brief tantangan mingguan
+labels: ["challenge", "feedback"]
+body:
+  - type: input
+    id: challenge_id
+    attributes:
+      label: Nama atau ID Tantangan
+    validations:
+      required: true
+  - type: textarea
+    id: feedback
+    attributes:
+      label: Umpan Balik
+      description: Bagian mana dari brief atau rubrik yang ambigu atau memerlukan klarifikasi?
+    validations:
+      required: true

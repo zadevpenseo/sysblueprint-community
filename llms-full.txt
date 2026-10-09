@@ -1,0 +1,24 @@
+# SysBlueprint Community Hub: Spesifikasi Lengkap & Invarian Sistemik
+
+Dokumen ini memuat spesifikasi arsitektural lengkap untuk agen AI dan pembelajar manusia yang menelaah atau menyumbang pada ekosistem SysBlueprint.
+
+## 1. Aturan Penilaian Rubrik Otomatis (`scripts/rubric_grader.py`)
+Skor akhir dihitung dari bobot:
+* **Dimensi Database (50%)**:
+  * Penalti 35 poin jika ditemukan tabel tanpa Primary Key.
+  * Penalti 15 poin jika ditemukan Foreign Key yang merujuk tabel yang tidak ada dalam skema.
+* **Dimensi Workflow State Machine (50%)**:
+  * Penalti 45 poin jika alur status tidak memiliki `initial` state.
+  * Penalti 30 poin jika `initial` state tidak cocok dengan salah satu state terdefinisi.
+  * Penalti 15 poin jika target transisi merujuk state yang tidak terdaftar.
+
+## 2. Invarian Komunitas & Penulisan
+* Zero AI Slop: Dilarang menggunakan kosakata klise mesin generatif.
+* Zero Em-Dash & Zero Double-Hyphen: Menggunakan tanda baca alami (koma, titik dua, tanda kurung).
+* Zero Kitchen Leak: Pembaca luar disajikan bahasa manusia yang hangat dan tenang, bukan jargon resep internal.
+
+## 3. Struktur Repositori
+* `resources/`: Berkas template yang siap disalin oleh pembelajar.
+* `scripts/`: Skrip Python deterministik untuk evaluasi mandiri.
+* `tests/`: Rangkaian pengujian unit Python (`unittest`).
+* `.github/`: Konfigurasi GitHub Actions, Issue Templates, dan Discussions.

@@ -1,0 +1,37 @@
+name: CI Quality Gate
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    name: Run Unit Tests & Lint Checks
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run Test Suite
+        run: |
+          python3 -m unittest discover -s tests
+
+      - name: Validate JSON Manifests
+        run: |
+          python3 -c "
+          import json, glob
+          for f in glob.glob('**/*.json', recursive=True):
+              with open(f) as fp:
+                  json.load(fp)
+                  print(f'Valid JSON: {f}')
+          "

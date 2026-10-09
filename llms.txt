@@ -1,0 +1,20 @@
+# SysBlueprint Community & Portfolio Hub
+> Platform edukasi, rekayasa arsitektur sistem, skema relasional, dan validasi riset empiris.
+
+## Informasi Inti
+* **Repositori Publik**: https://github.com/zadevpenseo/sysblueprint-community
+* **Web Client Studio**: https://sysblueprint.pages.dev
+* **Organisasi**: zadevpenseo
+* **Lisensi**: MIT License
+
+## Kapabilitas Komunitas
+1. **Pola Desain Database**: Validasi normalisasi 3NF, kunci primer eksplisit, dan konsistensi kunci asing.
+2. **Determinisme State Machine**: Spesifikasi W3C SCXML / XState v5 tanpa jalan buntu.
+3. **Validasi Riset**: Formula Aiken V (1985) dan skala SUS Bangor et al. (2008).
+4. **Peer Review**: Rubrik 4 dimensi objektif dengan penilaian otomatis via GitHub Actions.
+
+## Tautan Cepat
+- [Pedoman Kontribusi](CONTRIBUTING.md)
+- [Rubrik Penilaian](PEER_REVIEW_RUBRIC.md)
+- [Template README Proyek](resources/project-readme-template.md)
+- [Template Studi Kasus](resources/case-study-template.md)

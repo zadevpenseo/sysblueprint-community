@@ -1,0 +1,28 @@
+name: Proposal Studi Kasus Baru (Case Study Proposal)
+description: Usulkan skenario arsitektur sistem baru untuk ditambahkan ke komunitas
+labels: ["case-study", "proposal"]
+body:
+  - type: markdown
+    attributes:
+      value: Usulkan studi kasus arsitektur sistem baru untuk dipecahkan dan dipelajari bersama.
+  - type: input
+    id: title
+    attributes:
+      label: Judul Kasus
+      placeholder: Contoh: Sistem Lelang Real-Time dengan Escrow Otomatis
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Latar Belakang & Masalah
+      description: Masalah operasional atau teknis apa yang ingin dipecahkan?
+    validations:
+      required: true
+  - type: textarea
+    id: entities
+    attributes:
+      label: Entitas Utama & Alur
+      description: Sebutkan tabel atau state yang diperkirakan terlibat.
+    validations:
+      required: true

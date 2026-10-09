@@ -1,0 +1,26 @@
+name: Welcome First-time Contributor
+
+on:
+  pull_request_target:
+    types: [opened]
+
+permissions:
+  pull-requests: write
+
+jobs:
+  welcome:
+    name: Welcome New Contributor
+    runs-on: ubuntu-latest
+    steps:
+      - name: Greet Contributor
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const creator = context.payload.sender.login;
+            const comment = `Halo @${creator}! 👋 Terima kasih telah membuka Pull Request pertama Anda di SysBlueprint Community Hub. Tim maintainer akan meninjau perubahan Anda secara asinkron. Jangan ragu untuk bergabung dalam diskusi di tab GitHub Discussions kami!`;
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: comment
+            });

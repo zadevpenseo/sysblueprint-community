@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Tanya Jawab & Diskusi Umum
+    url: https://github.com/zadevpenseo/sysblueprint-community/discussions
+    about: Ajukan pertanyaan umum, saran, atau diskusi arsitektur di GitHub Discussions.

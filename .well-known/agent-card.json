@@ -1,0 +1,23 @@
+{
+  "name": "SysBlueprint Community Hub",
+  "description": "Public community and portfolio ecosystem for software architecture, relational schema validation, state machines, and empirical psychometrics.",
+  "url": "https://sysblueprint.pages.dev",
+  "version": "1.0.0",
+  "provider": {
+    "name": "SysBlueprint Engineering",
+    "organization": "zadevpenseo",
+    "url": "https://github.com/zadevpenseo/sysblueprint-community"
+  },
+  "capabilities": [
+    "database-schema-grading",
+    "scxml-state-validation",
+    "peer-review-rubric-scoring",
+    "aiken-content-validity",
+    "system-usability-scale-evaluation"
+  ],
+  "authentication": {
+    "type": "none",
+    "description": "Zero login required. Public architecture blueprints and rubric evaluation tools."
+  },
+  "documentation": "https://raw.githubusercontent.com/zadevpenseo/sysblueprint-community/main/llms.txt"
+}
