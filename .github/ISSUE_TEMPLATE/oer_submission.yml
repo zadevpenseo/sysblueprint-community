@@ -1,0 +1,59 @@
+name: Usulan Sumber OER Baru atau Perbaikan Tautan
+description: Ajukan materi kurikulum terbuka (K-12, Perguruan Tinggi, Karier) atau laporkan tautan OER yang non-aktif
+labels: ["oer-curriculum", "community-review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Terima kasih atas kontribusi kurikulum terbuka Anda untuk memperkaya ekosistem edukasi rekayasa sistem SysBlueprint.
+        Materi wajib berstatus lisensi terbuka (Creative Commons, Domain Publik, atau Akses Terbuka Resmi Kementerian).
+  - type: input
+    id: oer_title
+    attributes:
+      label: Judul Materi / Modul OER
+      description: Nama resmi materi atau buku referensi.
+      placeholder: Contoh: Buku Teks Basis Data Terdistribusi OpenStax
+    validations:
+      required: true
+  - type: dropdown
+    id: oer_track
+    attributes:
+      label: Jalur Kurikulum
+      description: Pilih jalur kurikulum yang paling tepat.
+      options:
+        - "K-12 Indonesia (Kurikulum Merdeka SIBI Kemdikbud)"
+        - "Pendidikan Tinggi (OBE / ABET / ACM-IEEE CS2023)"
+        - "Karier Industri & Rekayasa Sistem (Cloud, Distributed Systems, SRE)"
+    validations:
+      required: true
+  - type: input
+    id: oer_url
+    attributes:
+      label: Tautan Kanonikal Resmi (Canonical URL)
+      description: Tautan menuju halaman resmi penerbit atau portal OER.
+      placeholder: https://openstax.org/... atau https://buku.kemdikbud.go.id/...
+    validations:
+      required: true
+  - type: input
+    id: oer_license
+    attributes:
+      label: Lisensi Hak Cipta
+      description: Sebutkan jenis lisensi keterbukaan.
+      placeholder: Contoh: CC BY-SA 4.0 / CC BY-NC-ND / Hak Cipta Terbuka Kemdikbud
+    validations:
+      required: true
+  - type: textarea
+    id: oer_summary
+    attributes:
+      label: Ringkasan Materi & Tujuan Capaian Pembelajaran
+      description: Uraikan materi pokok dan relevansinya terhadap kompetensi rekayasa sistem.
+      placeholder: Membahas transaksi ACID, partisi horisontal sharding, dan replikasi basis data.
+    validations:
+      required: true
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Verifikasi Kepatuhan Hak Cipta
+      options:
+        - label: Saya mengonfirmasi bahwa materi ini bukan hasil pembajakan dan tautan berasal dari domain resmi institusi terkait.
+          required: true

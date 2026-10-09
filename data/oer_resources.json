@@ -1,0 +1,488 @@
+[
+  {
+    "id": "oer_sibi_smp7_infor",
+    "title": "Buku Teks Informatika SMP Kelas VII",
+    "track": "K12_ID",
+    "trackLabel": "K-12 Indonesia (Fase D SMP)",
+    "educationLevel": "Sekolah Menengah Pertama",
+    "grade": "Kelas 7",
+    "subject": "Informatika & Komputasi",
+    "organization": "Pusat Perbukuan Kemendikbudristek",
+    "author": "Irya Wisnubhadra, Maresha Caroline Wijanto, dkk.",
+    "summary": "Buku pegangan resmi Kurikulum Merdeka yang membahas fondasi berpikir komputasional, dekomposisi masalah, struktur algoritma dasar, dan pengantar analisis data.",
+    "learningObjectives": [
+      "Menerapkan konsep abstraksi dan dekomposisi pada persoalan logika sehari-hari",
+      "Mengenal struktur instruksi kondisional dan algoritma sekuensial dasar"
+    ],
+    "license": "Hak Cipta Pemerintah RI (Akses Terbuka Non-Komersial)",
+    "licenseBadge": "Kemdikbud Open",
+    "accessMethod": "LINK_OUT",
+    "canonicalUrl": "https://buku.kemdikbud.go.id/katalog/buku-panduan-guru-informatika-untuk-smp-kelas-vii",
+    "featured": true,
+    "crosswalk": {
+      "targetFramework": "ACM CSTA Level 2",
+      "targetCode": "2-AP-10",
+      "confidence": 0.88,
+      "notes": "Selaras dengan dekomposisi logika komputasional tingkat menengah pertama."
+    }
+  },
+  {
+    "id": "oer_sibi_smp8_infor",
+    "title": "Buku Teks Informatika SMP Kelas VIII",
+    "track": "K12_ID",
+    "trackLabel": "K-12 Indonesia (Fase D SMP)",
+    "educationLevel": "Sekolah Menengah Pertama",
+    "grade": "Kelas 8",
+    "subject": "Informatika & Komputasi",
+    "organization": "Pusat Perbukuan Kemendikbudristek",
+    "author": "Vania Natali, Mewati Ayub, dkk.",
+    "summary": "Membahas konsep representasi data, logika boolean, dasar jaringan komputer lokal, dan pemrograman blok visual.",
+    "learningObjectives": [
+      "Memahami fungsi logika biner dan representasi data heksadesimal",
+      "Merancang alur kontrol percabangan dan perulangan pada bahasa blok visual"
+    ],
+    "license": "Hak Cipta Pemerintah RI (Akses Terbuka Non-Komersial)",
+    "licenseBadge": "Kemdikbud Open",
+    "accessMethod": "LINK_OUT",
+    "canonicalUrl": "https://buku.kemdikbud.go.id/katalog/informatika-untuk-smp-kelas-viii",
+    "featured": false,
+    "crosswalk": {
+      "targetFramework": "ACM CSTA Level 2",
+      "targetCode": "2-CS-02",
+      "confidence": 0.85,
+      "notes": "Pengantar arsitektur perangkat keras dan komunikasi data."
+    }
+  },
+  {
+    "id": "oer_sibi_smp9_infor",
+    "title": "Buku Teks Informatika SMP Kelas IX",
+    "track": "K12_ID",
+    "trackLabel": "K-12 Indonesia (Fase D SMP)",
+    "educationLevel": "Sekolah Menengah Pertama",
+    "grade": "Kelas 9",
+    "subject": "Informatika & Komputasi",
+    "organization": "Pusat Perbukuan Kemendikbudristek",
+    "author": "Natali Vania, Wahyono, dkk.",
+    "summary": "Penguatan computational thinking, integrasi aplikasi perkantoran, literasi keamanan siber, dan pemrograman teks sederhana.",
+    "learningObjectives": [
+      "Menganalisis efisiensi algoritma penelusuran (searching) dan pengurutan (sorting)",
+      "Menerapkan prinsip keamanan data pribadi dan etika berkomunikasi digital"
+    ],
+    "license": "Hak Cipta Pemerintah RI (Akses Terbuka Non-Komersial)",
+    "licenseBadge": "Kemdikbud Open",
+    "accessMethod": "LINK_OUT",
+    "canonicalUrl": "https://buku.kemdikbud.go.id/katalog/informatika-untuk-smp-kelas-ix",
+    "featured": false,
+    "crosswalk": {
+      "targetFramework": "ACM CSTA Level 2",
+      "targetCode": "2-NI-05",
+      "confidence": 0.86,
+      "notes": "Protokol keamanan jaringan dan mitigasi risiko digital."
+    }
+  },
+  {
+    "id": "oer_sibi_sma10_infor",
+    "title": "Buku Teks Informatika SMA Kelas X",
+    "track": "K12_ID",
+    "trackLabel": "K-12 Indonesia (Fase E SMA)",
+    "educationLevel": "Sekolah Menengah Atas",
+    "grade": "Kelas 10",
+    "subject": "Informatika & Komputasi",
+    "organization": "Pusat Perbukuan Kemendikbudristek",
+    "author": "Mushthofa, Auzan Soebagjo, dkk.",
+    "summary": "Panduan resmi Fase E mencakup pengenalan struktur data rekursif, arsitektur komputer Von Neumann, analisis data tabel, dan praktik pemrograman Python.",
+    "learningObjectives": [
+      "Mengimplementasikan algoritma pemrograman berbasis teks dalam bahasa Python",
+      "Menganalisis keterkaitan perangkat keras, sistem operasi, dan instruksi mesin"
+    ],
+    "license": "Hak Cipta Pemerintah RI (Akses Terbuka Non-Komersial)",
+    "licenseBadge": "Kemdikbud Open",
+    "accessMethod": "LINK_OUT",
+    "canonicalUrl": "https://buku.kemdikbud.go.id/katalog/buku-panduan-guru-informatika-untuk-sma-kelas-x",
+    "featured": true,
+    "crosswalk": {
+      "targetFramework": "ACM CSTA Level 3A",
+      "targetCode": "3A-AP-13",
+      "confidence": 0.92,
+      "notes": "Penyusunan kode modular berbasis fungsi dan struktur data."
+    }
+  },
+  {
+    "id": "oer_sibi_sma11_infor",
+    "title": "Buku Teks Informatika SMA Kelas XI & XII",
+    "track": "K12_ID",
+    "trackLabel": "K-12 Indonesia (Fase F SMA/SMK)",
+    "educationLevel": "Sekolah Menengah Atas",
+    "grade": "Kelas 11-12",
+    "subject": "Informatika & Komputasi",
+    "organization": "Pusat Perbukuan Kemendikbudristek",
+    "author": "Paulina Heruningsih, Adi Mulyanto, dkk.",
+    "summary": "Peminatan tingkat lanjut mencakup rekayasa perangkat lunak, perancangan basis data relasional, graf berarah (DAG), dan kecerdasan buatan terapan.",
+    "learningObjectives": [
+      "Merancang model data relasional dan diagram entitas hubungan (ERD)",
+      "Mengevaluasi kompleksitas algoritma graf dan jalur penelusuran kritis"
+    ],
+    "license": "Hak Cipta Pemerintah RI (Akses Terbuka Non-Komersial)",
+    "licenseBadge": "Kemdikbud Open",
+    "accessMethod": "LINK_OUT",
+    "canonicalUrl": "https://buku.kemdikbud.go.id/katalog/informatika-untuk-sma-kelas-xi",
+    "featured": true,
+    "crosswalk": {
+      "targetFramework": "ACM/IEEE CS-IM",
+      "targetCode": "IM-Relational",
+      "confidence": 0.94,
+      "notes": "Fondasi basis data relasional selaras dengan DDL Studio SysBlueprint."
+    }
+  },
+  {
+    "id": "oer_sibi_sma_mat_lanjut",
+    "title": "Matematika Tingkat Lanjut SMA Kelas XI-XII",
+    "track": "K12_ID",
+    "trackLabel": "K-12 Indonesia (Fase F SMA)",
+    "educationLevel": "Sekolah Menengah Atas",
+    "grade": "Kelas 11-12",
+    "subject": "Matematika & Sains",
+    "organization": "Pusat Perbukuan Kemendikbudristek",
+    "author": "Al Azhary Masta, Zetra Hainul Putra, dkk.",
+    "summary": "Membahas geometri analitik, aljabar linear matriks, transformasi geometri, dan kalkulus diferensial-integral untuk peminatan MIPA.",
+    "learningObjectives": [
+      "Mengoperasikan matriks dan sistem persamaan linear n-variabel",
+      "Memahami turunan dan integral untuk optimasi sistem fisik dan ekonomi"
+    ],
+    "license": "Hak Cipta Pemerintah RI (Akses Terbuka Non-Komersial)",
+    "licenseBadge": "Kemdikbud Open",
+    "accessMethod": "LINK_OUT",
+    "canonicalUrl": "https://buku.kemdikbud.go.id/katalog/buku-panduan-guru-matematika-tingkat-lanjut-untuk-sma-kelas-xi",
+    "featured": false,
+    "crosswalk": {
+      "targetFramework": "OpenStax Calculus Bridge",
+      "targetCode": "MATH-CALC-1",
+      "confidence": 0.91,
+      "notes": "Jembatan langsung menuju kalkulus perguruan tinggi OpenStax."
+    }
+  },
+  {
+    "id": "oer_rumahbelajar_labmaya",
+    "title": "Laboratorium Maya Sains & Matematika",
+    "track": "K12_ID",
+    "trackLabel": "K-12 Indonesia (Fase D-F)",
+    "educationLevel": "SMP & SMA",
+    "grade": "Kelas 7-12",
+    "subject": "Matematika & Sains",
+    "organization": "Pusdatin Kemendikbudristek",
+    "author": "Tim Pengembang Rumah Belajar",
+    "summary": "Simulasi interaktif eksperimen laboratorium fisika, kimia, dan matematika yang dapat dioperasikan langsung di peramban tanpa peralatan fisik.",
+    "learningObjectives": [
+      "Melakukan uji coba variabel kontrol pada fenomena sains kuantitatif",
+      "Menghubungkan data empiris hasil simulasi dengan formula teoretis"
+    ],
+    "license": "Akses Terbuka Pendidikan Nasional",
+    "licenseBadge": "Pusdatin Open",
+    "accessMethod": "LINK_OUT",
+    "canonicalUrl": "https://belajar.kemdikbud.go.id/LabMaya",
+    "featured": false,
+    "crosswalk": {
+      "targetFramework": "PhET Virtual Labs",
+      "targetCode": "STEM-VIRT-01",
+      "confidence": 0.89,
+      "notes": "Eksperimen virtual komplementer untuk sekolah di Indonesia."
+    }
+  },
+  {
+    "id": "oer_openstax_calculus_v1",
+    "title": "OpenStax Calculus Volume 1 & 2",
+    "track": "HIGHER_ED",
+    "trackLabel": "Pendidikan Tinggi (OBE)",
+    "educationLevel": "Perguruan Tinggi (Sarjana / Diploma)",
+    "grade": "Semester 1-2",
+    "subject": "Matematika & Sains",
+    "organization": "Rice University (OpenStax)",
+    "author": "Edwin Herman, Gilbert Strang, dkk.",
+    "summary": "Buku teks perguruan tinggi terakreditasi internasional yang membedah limit, turunan, integral riemann, dan persamaan diferensial dengan ribuan soal terverifikasi.",
+    "learningObjectives": [
+      "Menyelesaikan persoalan laju perubahan dan optimasi multivariabel",
+      "Mengembangkan pembuktian formal teorema kalkulus dasar"
+    ],
+    "license": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+    "licenseBadge": "CC BY 4.0",
+    "accessMethod": "LINK_OUT",
+    "canonicalUrl": "https://openstax.org/details/books/calculus-volume-1",
+    "featured": true,
+    "crosswalk": {
+      "targetFramework": "ACM CS Math Foundation",
+      "targetCode": "MATH-CALC",
+      "confidence": 0.98,
+      "notes": "Standar emas materi kalkulus untuk mahasiswa sains komputer dan teknik."
+    }
+  },
+  {
+    "id": "oer_openstax_physics_v1",
+    "title": "OpenStax University Physics Volume 1 (Mechanics)",
+    "track": "HIGHER_ED",
+    "trackLabel": "Pendidikan Tinggi (OBE)",
+    "educationLevel": "Perguruan Tinggi (Sarjana / Teknik)",
+    "grade": "Semester 1",
+    "subject": "Matematika & Sains",
+    "organization": "Rice University (OpenStax)",
+    "author": "Samuel J. Ling, Jeff Sanny, William Moebs",
+    "summary": "Buku teks fisika berbasis kalkulus yang mencakup kinematika, hukum gerak Newton, usaha dan energi, momentum, serta osilasi mekanik.",
+    "learningObjectives": [
+      "Memodelkan sistem dinamika fisik dengan kalkulus diferensial",
+      "Menganalisis hukum kekekalan energi dan momentum pada sistem tertutup"
+    ],
+    "license": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+    "licenseBadge": "CC BY 4.0",
+    "accessMethod": "LINK_OUT",
+    "canonicalUrl": "https://openstax.org/details/books/university-physics-volume-1",
+    "featured": false,
+    "crosswalk": {
+      "targetFramework": "ABET Engineering Physics",
+      "targetCode": "PHYS-MECH-101",
+      "confidence": 0.97,
+      "notes": "Standar akreditasi internasional ABET untuk fisika teknik dasar."
+    }
+  },
+  {
+    "id": "oer_mit_ocw_6006",
+    "title": "MIT OCW 6.006: Introduction to Algorithms",
+    "track": "HIGHER_ED",
+    "trackLabel": "Pendidikan Tinggi (OBE)",
+    "educationLevel": "Perguruan Tinggi (Sarjana)",
+    "grade": "Semester 3-4",
+    "subject": "Informatika & Komputasi",
+    "organization": "Massachusetts Institute of Technology (MIT)",
+    "author": "Erik Demaine, Srini Devadas",
+    "summary": "Bahan perkuliahan algoritma MIT paling populer: analisis asimtotik, hashing, pohon biner seimbang (AVL), penelusuran graf (BFS/DFS), shortest path (Dijkstra), dan pemrograman dinamis.",
+    "learningObjectives": [
+      "Mendesain struktur data efisien dengan batas memori O(N) dan waktu O(log N)",
+      "Menyelesaikan persoalan penelusuran graf menggunakan traversal topologis DAG"
+    ],
+    "license": "Creative Commons BY-NC-SA 4.0",
+    "licenseBadge": "CC BY-NC-SA 4.0",
+    "accessMethod": "LINK_OUT",
+    "canonicalUrl": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/",
+    "featured": true,
+    "crosswalk": {
+      "targetFramework": "ACM CS-AL (Algorithms & Complexity)",
+      "targetCode": "AL-Basic",
+      "confidence": 0.99,
+      "notes": "Dasar matematis algoritma topological sort yang dipakai di Studio SysBlueprint."
+    }
+  },
+  {
+    "id": "oer_mit_ocw_6033",
+    "title": "MIT OCW 6.033: Computer System Engineering",
+    "track": "HIGHER_ED",
+    "trackLabel": "Pendidikan Tinggi (OBE)",
+    "educationLevel": "Perguruan Tinggi (Sarjana / Lanjutan)",
+    "grade": "Semester 5-6",
+    "subject": "Rekayasa Sistem",
+    "organization": "Massachusetts Institute of Technology (MIT)",
+    "author": "Hari Balakrishnan, M. Frans Kaashoek, Nickolai Zeldovich",
+    "summary": "Prinsip rekayasa sistem komputer skala besar: modularitas, isolasi kesalahan, konkurensi, transaksi basis data dua fase, sistem terdistribusi, dan keamanan jaringan.",
+    "learningObjectives": [
+      "Menganalisis anomali konkurensi sistem dan strategi isolasi transaksi ACID",
+      "Merancang dokumen keputusan arsitektur (Design Project Report / ADR)"
+    ],
+    "license": "Creative Commons BY-NC-SA 4.0",
+    "licenseBadge": "CC BY-NC-SA 4.0",
+    "accessMethod": "LINK_OUT",
+    "canonicalUrl": "https://ocw.mit.edu/courses/6-033-computer-system-engineering-spring-2018/",
+    "featured": true,
+    "crosswalk": {
+      "targetFramework": "ACM CS-SE (Software Engineering)",
+      "targetCode": "SE-Architecture",
+      "confidence": 0.98,
+      "notes": "Acuan penulisan ADR profesional pada ekosistem studi kasus SysBlueprint."
+    }
+  },
+  {
+    "id": "oer_harvard_cs50x",
+    "title": "CS50x: Introduction to Computer Science",
+    "track": "HIGHER_ED",
+    "trackLabel": "Pendidikan Tinggi (OBE)",
+    "educationLevel": "Perguruan Tinggi / Terbuka",
+    "grade": "Semester 1",
+    "subject": "Informatika & Komputasi",
+    "organization": "Harvard University",
+    "author": "David J. Malan",
+    "summary": "Pengantar rekayasa piranti lunak komprehensif mulai dari C (alokasi memori manual), Python, SQL (pemodelan basis data relasional), hingga pengembangan aplikasi web modern.",
+    "learningObjectives": [
+      "Memahami manajemen memori heap dan stack secara presisi",
+      "Menguasai kueri relasional SQL dan integrasi antarmuka klien"
+    ],
+    "license": "Harvard Educational Open Courseware",
+    "licenseBadge": "CS50 Open",
+    "accessMethod": "LINK_OUT",
+    "canonicalUrl": "https://cs50.harvard.edu/x/",
+    "featured": true,
+    "crosswalk": {
+      "targetFramework": "ACM CS-Intro",
+      "targetCode": "CS-FND-01",
+      "confidence": 0.96,
+      "notes": "Pengantar pemrograman terpopuler di dunia."
+    }
+  },
+  {
+    "id": "oer_berkeley_cs61b",
+    "title": "UC Berkeley CS61B: Data Structures & Algorithms",
+    "track": "HIGHER_ED",
+    "trackLabel": "Pendidikan Tinggi (OBE)",
+    "educationLevel": "Perguruan Tinggi (Sarjana)",
+    "grade": "Semester 2-3",
+    "subject": "Informatika & Komputasi",
+    "organization": "University of California, Berkeley",
+    "author": "Josh Hug",
+    "summary": "Kursus mendalam struktur data Java: linked lists, hash tables, B-trees, red-black trees, disjoint sets, graph algorithms, dan software engineering testing rigor.",
+    "learningObjectives": [
+      "Mengembangkan struktur data tingkat lanjut dengan verifikasi unit test ketat",
+      "Menganalisis amortized time complexity pada struktur pohon pencarian seimbang"
+    ],
+    "license": "Berkeley Academic Open Materials",
+    "licenseBadge": "UC Berkeley Open",
+    "accessMethod": "LINK_OUT",
+    "canonicalUrl": "https://sp21.datastructur.es/",
+    "featured": false,
+    "crosswalk": {
+      "targetFramework": "ACM CS-AL",
+      "targetCode": "AL-DataStructures",
+      "confidence": 0.97,
+      "notes": "Rujukan implementasi struktur data industri."
+    }
+  },
+  {
+    "id": "oer_odin_project",
+    "title": "The Odin Project (Full Stack JavaScript & Node.js)",
+    "track": "CAREER_PRO",
+    "trackLabel": "Karir & Kejuruan Industri",
+    "educationLevel": "Vokasi / Profesional Mandiri",
+    "grade": "Career Track",
+    "subject": "Rekayasa Sistem",
+    "organization": "The Odin Project Community",
+    "author": "Komunitas Pengembang Terbuka The Odin Project",
+    "summary": "Kurikulum pengembangan web gratis berbasis proyek nyata, mengajarkan Git, JavaScript modern, React, Node.js, Express, dan PostgreSQL dari nol hingga siap kerja.",
+    "learningObjectives": [
+      "Membangun aplikasi web full-stack terintegrasi basis data relasional",
+      "Mengelola alur kerja Git mandiri dengan branch, PR, dan continuous deployment"
+    ],
+    "license": "Open Source MIT License (Dokumentasi: CC BY-SA 4.0)",
+    "licenseBadge": "CC BY-SA 4.0",
+    "accessMethod": "LINK_OUT",
+    "canonicalUrl": "https://www.theodinproject.com/",
+    "featured": true,
+    "crosswalk": {
+      "targetFramework": "SKKNI Pengembang Web",
+      "targetCode": "SKKNI-WEB-ADV",
+      "confidence": 0.95,
+      "notes": "Model rujukan pedagogi proyek yang diadopsi SysBlueprint."
+    }
+  },
+  {
+    "id": "oer_freecodecamp_backend",
+    "title": "freeCodeCamp: Relational Database & Backend Certification",
+    "track": "CAREER_PRO",
+    "trackLabel": "Karir & Kejuruan Industri",
+    "educationLevel": "Vokasi / Profesional Mandiri",
+    "grade": "Certification Track",
+    "subject": "Rekayasa Sistem",
+    "organization": "freeCodeCamp.org",
+    "author": "Quincy Larson & Kontributor Global",
+    "summary": "Sertifikasi 300 jam komputasi basis data relasional menggunakan terminal Linux, Bash scripting, PostgreSQL, dan Git interaktif langsung di kontainer sandbox.",
+    "learningObjectives": [
+      "Menguasai administrasi psql, penulisan skrip bash otomatisasi basis data",
+      "Menerapkan konsep normalisasi dan isolasi transaksi dalam proyek mandiri"
+    ],
+    "license": "Open Source BSD-3-Clause",
+    "licenseBadge": "BSD-3-Clause",
+    "accessMethod": "LINK_OUT",
+    "canonicalUrl": "https://www.freecodecamp.org/learn/relational-database/",
+    "featured": true,
+    "crosswalk": {
+      "targetFramework": "SKKNI Administrator Basis Data",
+      "targetCode": "SKKNI-DB-ADMIN",
+      "confidence": 0.94,
+      "notes": "Praktik langsung PostgreSQL interaktif gratis."
+    }
+  },
+  {
+    "id": "oer_exercism_track",
+    "title": "Exercism Coding Practice & Mentorship",
+    "track": "CAREER_PRO",
+    "trackLabel": "Karir & Kejuruan Industri",
+    "educationLevel": "Profesional & Mahasiswa",
+    "grade": "Skill Sharpening",
+    "subject": "Informatika & Komputasi",
+    "organization": "Exercism",
+    "author": "Jeremy Walker, Katrina Owen, & Komunitas",
+    "summary": "Platform latihan koding berbasis pengujian unit otomatis di komputer lokal dengan lebih dari 70 bahasa pemrograman dan penelaahan kode manusia sukarela.",
+    "learningObjectives": [
+      "Menerapkan idiom bahasa pemrograman secara bersih (idiomatic code)",
+      "Menyelesaikan tantangan berbasis test-driven development (TDD)"
+    ],
+    "license": "Open Source AGPL-3.0 (Konten Latihan Terbuka)",
+    "licenseBadge": "Exercism Open",
+    "accessMethod": "LINK_OUT",
+    "canonicalUrl": "https://exercism.org/",
+    "featured": false,
+    "crosswalk": {
+      "targetFramework": "TDD Clean Code Standard",
+      "targetCode": "ENG-CLEAN-CODE",
+      "confidence": 0.92,
+      "notes": "Model latihan coding berbasis CLI lokal dan TDD."
+    }
+  },
+  {
+    "id": "oer_phet_circuit_construction",
+    "title": "PhET Simulation: Circuit Construction Kit (DC)",
+    "track": "CAREER_PRO",
+    "trackLabel": "STEM & Rekayasa Perangkat Keras",
+    "educationLevel": "SMP, SMA & Perguruan Tinggi",
+    "grade": "Multilevel",
+    "subject": "Matematika & Sains",
+    "organization": "University of Colorado Boulder (PhET)",
+    "author": "PhET Interactive Simulations Team",
+    "summary": "Simulasi interaktif sirkuit listrik arus searah (DC) berbasis HTML5 untuk memvisualisasikan aliran elektron, hukum Ohm, resistor paralel/seri, dan sakelar logika.",
+    "learningObjectives": [
+      "Memahami relasi tegangan, hambatan, dan arus listrik secara intuitif",
+      "Merangkai gerbang logika dasar menggunakan sakelar dan resistor"
+    ],
+    "license": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+    "licenseBadge": "CC BY 4.0 (Embeddable)",
+    "accessMethod": "EMBED_IFRAME",
+    "canonicalUrl": "https://phet.colorado.edu/sims/html/circuit-construction-kit-dc/latest/circuit-construction-kit-dc_all.html",
+    "featured": true,
+    "crosswalk": {
+      "targetFramework": "IEEE Computer Hardware Basics",
+      "targetCode": "HW-CIRCUIT-01",
+      "confidence": 0.96,
+      "notes": "Simulasi resmi dapat disematkan langsung di dalam Web Client."
+    }
+  },
+  {
+    "id": "oer_geogebra_graph_theory",
+    "title": "GeoGebra: Teori Graf Dinamis & Jaringan Spasial",
+    "track": "CAREER_PRO",
+    "trackLabel": "Matematika Terapan & Lab Graf",
+    "educationLevel": "SMA & Perguruan Tinggi",
+    "grade": "Multilevel",
+    "subject": "Matematika & Sains",
+    "organization": "GeoGebra International",
+    "author": "Komunitas GeoGebra & Peneliti Matematika",
+    "summary": "Kanvas visualisasi interaktif untuk teori graf berbobot, pohon rentang minimum (Kruskal/Prim), dan visualisasi simpul derajat ketetanggaan.",
+    "learningObjectives": [
+      "Memvisualisasikan representasi matriks ketetanggaan pada graf tak berarah",
+      "Menemukan jalur kritis terpendek pada jaringan perutean dinamis"
+    ],
+    "license": "Creative Commons Attribution-NonCommercial-ShareAlike (CC BY-NC-SA 3.0)",
+    "licenseBadge": "CC BY-NC-SA 3.0 (Embeddable)",
+    "accessMethod": "EMBED_IFRAME",
+    "canonicalUrl": "https://www.geogebra.org/calculator",
+    "featured": false,
+    "crosswalk": {
+      "targetFramework": "ACM CS-AL Graph Theory",
+      "targetCode": "AL-GRAPH-01",
+      "confidence": 0.93,
+      "notes": "Alat bantu eksplorasi visual melengkapi Lab Graf SysBlueprint."
+    }
+  }
+]
