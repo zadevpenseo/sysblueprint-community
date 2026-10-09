@@ -22,10 +22,10 @@ Kami memutuskan untuk menerapkan pola **Dual-Repository Architecture**:
 
 1. **`zadevpenseo/sysblueprint` (Repositori Privat)**:
    * Menjadi rumah kanonikal bagi kode sumber aplikasi web (`web-client`), konfigurasi build, skrip generator OpenXML/DOCX, dan rahasia operasional.
-   * Berfungsi sebagai *Engine Room* back-stage.
+   * Berfungsi sebagai repositori pemeliharaan aplikasi dan generator.
 
 2. **`zadevpenseo/sysblueprint-community` (Repositori Publik)**:
-   * Menjadi *Public Stage* untuk template portofolio, berkas panduan komunitas, kurasi showcase, dan repositori studi kasus.
+   * Menjadi ruang kolaborasi terbuka untuk template portofolio, berkas panduan komunitas, kurasi showcase, dan repositori studi kasus.
    * Memanfaatkan fasilitas **unlimited GitHub Actions minutes** untuk repositori publik guna menjalankan evaluasi rubrik otomatis (`rubric_grader.py`), linter skema, dan bot penerima kontributor.
    * Mengaktifkan GitHub Discussions sebagai forum tanya-jawab terbuka dan peer-review tanpa perlu self-host platform forum mandiri (Discourse/Flarum).
 
@@ -37,7 +37,7 @@ Kami memutuskan untuk menerapkan pola **Dual-Repository Architecture**:
 * **Keamanan Maksimal**: Kode internal dan rahasia generator aman di repositori privat.
 * **Onboarding Bersih**: Kontributor publik hanya berhadapan dengan struktur studi kasus, template Markdown, dan schema JSON tanpa beban kompilasi React/Vite.
 * **Otomasi Gratis & Cepat**: Pengecekan CI/CD dan grading rubrik berjalan otomatis melalui GitHub Actions publik tanpa memakan kuota berbayar.
-* **Kepatuhan Invarian**: Menghilangkan kebutuhan autentikasi rumit di sisi website; pengguna bebas menjelajah Studio secara lokal.
+* **Kenyamanan Pengguna**: Menghilangkan kebutuhan autentikasi rumit di sisi website; pengguna bebas menjelajah Studio secara lokal.
 
 ### Negatif / Mitigasi:
 * Diperlukan pemeliharaan sinkronisasi manual/terprogram jika ada pembaruan skema data di web-client yang berdampak pada template studi kasus di repositori komunitas. Mitigasi: Runtime schema Zod diekspor dalam format JSON Schema yang dapat diakses secara publik via endpoint static `llms.txt` dan `.well-known/agent-card.json`.

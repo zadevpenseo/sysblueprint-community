@@ -142,7 +142,7 @@ def main():
             for item in result['findings']:
                 print(f"  • {item}")
         else:
-            print("Temuan: Bersih, seluruh invarian arsitektur terpenuhi.")
+            print("Temuan: Bersih, seluruh kaidah integritas skema dan alur status terpenuhi.")
         print("=" * 60)
 
 if __name__ == "__main__":

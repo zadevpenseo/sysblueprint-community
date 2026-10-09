@@ -10,11 +10,11 @@
 
 ---
 
-## 🧭 Ikhtisar Platform
+## 🧭 Cara Menggunakan SysBlueprint
 
-SysBlueprint dibangun di atas filosofi **GitHub-First, Bukan GitHub-Only**:
-* **Front Stage (Web Studio)**: Mahasiswa, dosen, dan rekayasawan dapat langsung menggunakan tools tanpa hambatan login atau pembuatan akun internal di [sysblueprint.pages.dev](https://sysblueprint.pages.dev).
-* **Back Stage (GitHub Community)**: Repositori publik ini bertindak sebagai infrastruktur kolaborasi terstruktur untuk template proyek, studi kasus terverifikasi, tantangan mingguan, dan pengajuan portofolio.
+SysBlueprint dirancang dengan dua pintu masuk yang saling melengkapi:
+* **Studio Interaktif ([sysblueprint.pages.dev](https://sysblueprint.pages.dev))**: Alat visual perancangan skema dan simulator alur status yang dapat digunakan langsung di peramban tanpa kewajiban registrasi atau login.
+* **Repositori Komunitas ([GitHub](https://github.com/zadevpenseo/sysblueprint-community))**: Pusat kolaborasi untuk template proyek, studi kasus terverifikasi, tantangan berkala, dan pengajuan portofolio.
 
 ```
 ┌────────────────────────────────────────────────────────────────────────┐
@@ -53,7 +53,7 @@ python3 scripts/rubric_grader.py path/to/blueprint-submission.json
 ```
 
 Predikat kelulusan:
-* **DISTINCTION (Skor >= 85)**: Memenuhi seluruh invarian arsitektur, relasi konsisten, siap masuk kurasi galeri showcase.
+* **DISTINCTION (Skor >= 85)**: Memenuhi seluruh kaidah perancangan skema dan alur status, siap masuk kurasi galeri showcase.
 * **COMPETENT (Skor >= 70)**: Lulus kriteria dasar, siap untuk tahap peer review.
 * **NEEDS REVISION (Skor < 70)**: Memerlukan perbaikan pada pendefinisian Primary Key atau konsistensi transisi state.
 

@@ -1,4 +1,4 @@
-# SysBlueprint Community Hub: Spesifikasi Lengkap & Invarian Sistemik
+# SysBlueprint Community Hub: Spesifikasi Lengkap & Standar Arsitektur
 
 Dokumen ini memuat spesifikasi arsitektural lengkap untuk agen AI dan pembelajar manusia yang menelaah atau menyumbang pada ekosistem SysBlueprint.
 
@@ -12,10 +12,10 @@ Skor akhir dihitung dari bobot:
   * Penalti 30 poin jika `initial` state tidak cocok dengan salah satu state terdefinisi.
   * Penalti 15 poin jika target transisi merujuk state yang tidak terdaftar.
 
-## 2. Invarian Komunitas & Penulisan
-* Zero AI Slop: Dilarang menggunakan kosakata klise mesin generatif.
-* Zero Em-Dash & Zero Double-Hyphen: Menggunakan tanda baca alami (koma, titik dua, tanda kurung).
-* Zero Kitchen Leak: Pembaca luar disajikan bahasa manusia yang hangat dan tenang, bukan jargon resep internal.
+## 2. Standar Mutu Komunikasi & Penulisan
+* Bahasa Alami: Mengutamakan kalimat aktif, lugas, dan bebas dari kosakata klise mesin.
+* Tanda Baca Standar: Menggunakan tanda baca alami (koma, titik dua, tanda kurung).
+* Orientasi Solusi: Materi publik berfokus pada hasil praktis dan kebutuhan pengguna nyata.
 
 ## 3. Struktur Repositori
 * `resources/`: Berkas template yang siap disalin oleh pembelajar.
